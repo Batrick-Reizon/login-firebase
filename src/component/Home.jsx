@@ -28,7 +28,7 @@ function Home() {
     }
 
     return (<div className="flex h-screen justify-center items-center">
-        <div className="w-1/3 p-10 bg-green-700 rounded text-center">
+        <div className="w-11/12 sm:w-2/3 md:w-1/2 lg:w-1/3 p-10 bg-green-700 rounded text-center">
             <h1 className="text-white font-black text-3xl">Login Successfull 🎉</h1>
             <h4 className="my-3 text-lg text-white">Welcome to home page, Please continue 😊</h4>
             <button onClick={handleLogout} className="text-white font-medium bg-black rounded p-2">logout</button>

@@ -54,7 +54,7 @@ function Signup() {
     }
 
     return (<div className="flex h-screen justify-center items-center">
-        <form onSubmit={handleSubmit} className="w-1/3 p-10 bg-yellow-700 rounded">
+        <form onSubmit={handleSubmit} className="w-11/12 sm:w-2/3 md:w-1/2 lg:w-1/3 p-10 bg-yellow-700 rounded">
             <h1 className="text-white font-black text-3xl text-center">Signup Page</h1>
             <input type="email" value={email} onChange={handleChangeEmail} className="border-2 border-black p-1 bg-white w-full my-3 outline-none" placeholder="Enter email" required />
             <input type="password" value={password} onChange={handleChangePassword} className="border-2 border-black p-1 bg-white w-full outline-none" placeholder="Enter password" required />
