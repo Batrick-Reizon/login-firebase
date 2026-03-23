@@ -22,6 +22,6 @@
 - On successful login, user is redirected to the protected page
 
 # How to View
-Check out the live demo here . Try logging in using Firebase credentials to explore how authentication works!
+Check out the live demo here https://login-firebase-lilac.vercel.app/login. Try logging in using Firebase credentials to explore how authentication works!
 
 Thank you for visiting my Login Firebase project!
